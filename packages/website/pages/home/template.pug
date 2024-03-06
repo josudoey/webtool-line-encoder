@@ -2,6 +2,7 @@
   nav.navbar.navbar-dark.bg-dark
     .navbar-brand.d-flex
       div Line Encoder
+        button.btn.btn-primary.btn-sm.d-inline.ml-1.py-0(@click="textToSha256Base64") TextToSha256Base64
         button.btn.btn-primary.btn-sm.d-inline.ml-1.py-0(@click="textToSha256Hex") TextToSha256Hex
         button.btn.btn-primary.btn-sm.d-inline.ml-1.py-0(@click="hexToBase64") HexToBase64
   .container-fluid.px-0

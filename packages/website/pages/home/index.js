@@ -30,6 +30,14 @@ export function setup () {
       }
 
       data.result = encoded.join('\n')
+    },
+    textToSha256Base64 () {
+      const encoded = []
+      for (const line of data.input.split('\n')) {
+        encoded.push(SHA256(line).toString(Base64))
+      }
+
+      data.result = encoded.join('\n')
     }
   }
 }
