@@ -6,4 +6,4 @@ webtool line encoder
 
 ### Demo
 
- [Link](https://josudoey.github.io/webtool-line-endoer/)
+ [Link](https://josudoey.github.io/webtool-line-encoder/)
