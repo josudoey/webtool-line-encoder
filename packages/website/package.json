@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "~website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "webpack:build": "NODE_ENV=production webpack --config ./webpack/config.js",
+    "build": "vite build",
+    "clean": "test -d dist&&rm -r dist||true",
+    "dev": "vite",
+    "vite:build": "c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josudoey/webtool-template.git"
+  },
+  "author": "Joey Fang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josudoey/webtool-template/issues"
+  },
+  "homepage": "https://github.com/josudoey/webtool-template#readme",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/compat": "^3.3.4",
+    "@vue/compiler-sfc": "^3.3.4",
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.23.1",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
+    "pug": "^3.0.2",
+    "vite": "^4.4.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.1.6"
+  }
+}
